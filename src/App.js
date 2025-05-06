@@ -1,4 +1,6 @@
+// src/App.js
 import React from 'react';
+import './App.css';
 import EmployeeForm from './components/EmployeeForm';
 
 function App() {
