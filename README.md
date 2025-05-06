@@ -1,6 +1,7 @@
 # Employee Form (React)
 
-![Screenshot](https://raw.githubusercontent.com/mguagcedu/employee-form/main/employee-form-screenshot.png)
+![Employee Form Screenshot](employee-form-screenshot.png)
+
 
 This is a React-based Employee Form for managing employee records. It uses controlled form elements, CSS styling, and best practices in modern component-based development.
 
