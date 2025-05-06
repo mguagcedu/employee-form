@@ -1,6 +1,6 @@
 # Employee Form (React)
 
-![Final Employee Form](emp-image.png)
+![Final Employee Form](https://raw.githubusercontent.com/mguagcedu/employee-form/master/public/emp-image.png)
 
 
 🔗 **Live Demo:** https://mguagcedu.github.io/employee-form  
