@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/employee-form/static/css/main.06ff1f07.css",
+    "main.css": "/employee-form/static/css/main.0e0a6c0a.css",
     "main.js": "/employee-form/static/js/main.88a850d0.js",
     "static/js/453.ab4589a7.chunk.js": "/employee-form/static/js/453.ab4589a7.chunk.js",
     "index.html": "/employee-form/index.html",
-    "main.06ff1f07.css.map": "/employee-form/static/css/main.06ff1f07.css.map",
+    "main.0e0a6c0a.css.map": "/employee-form/static/css/main.0e0a6c0a.css.map",
     "main.88a850d0.js.map": "/employee-form/static/js/main.88a850d0.js.map",
     "453.ab4589a7.chunk.js.map": "/employee-form/static/js/453.ab4589a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ff1f07.css",
+    "static/css/main.0e0a6c0a.css",
     "static/js/main.88a850d0.js"
   ]
 }
