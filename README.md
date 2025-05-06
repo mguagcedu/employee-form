@@ -1,7 +1,7 @@
-# Employee Form (React)
+git add README.md public/emp-image.png
+git commit -m "Updated README with final form screenshot"
+git push origin master
 
-
-![Final Employee Form](public/emp-image.png)
 
 
 🔗 **Live Demo:** https://mguagcedu.github.io/employee-form
