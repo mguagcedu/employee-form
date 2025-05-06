@@ -1,38 +1,61 @@
-// src/components/EmployeeForm.js
 import React, { useState } from 'react';
 import './EmployeeForm.css';
 
-function EmployeeForm() {
-  const [employee, setEmployee] = useState({
-    fullName: '',
-    email: '',
+const EmployeeForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    position: '',
     department: '',
-    jobRole: ''
+    email: '',
+    startDate: ''
   });
 
   const handleChange = (e) => {
-    setEmployee({ ...employee, [e.target.name]: e.target.value });
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Employee added: ${JSON.stringify(employee)}`);
+    console.log('Submitted Employee Data:', formData);
+    alert('Form submitted! Check the console for data.');
   };
 
   return (
-    <form onSubmit={handleSubmit} className="employee-form">
-      <h2>Add New Employee</h2>
-      <label>Full Name:</label>
-      <input type="text" name="fullName" onChange={handleChange} />
-      <label>Email Address:</label>
-      <input type="email" name="email" onChange={handleChange} />
-      <label>Department:</label>
-      <input type="text" name="department" onChange={handleChange} />
-      <label>Job Role:</label>
-      <input type="text" name="jobRole" onChange={handleChange} />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="employee-form-container">
+      <h2>New Employee Form</h2>
+      <form onSubmit={handleSubmit} className="employee-form">
+        <label>
+          Name:
+          <input type="text" name="name" value={formData.name} onChange={handleChange} required />
+        </label>
+
+        <label>
+          Position:
+          <input type="text" name="position" value={formData.position} onChange={handleChange} required />
+        </label>
+
+        <label>
+          Department:
+          <input type="text" name="department" value={formData.department} onChange={handleChange} required />
+        </label>
+
+        <label>
+          Email:
+          <input type="email" name="email" value={formData.email} onChange={handleChange} required />
+        </label>
+
+        <label>
+          Start Date:
+          <input type="date" name="startDate" value={formData.startDate} onChange={handleChange} required />
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
-}
+};
 
 export default EmployeeForm;
