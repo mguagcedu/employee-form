@@ -1,6 +1,9 @@
 # Employee Form (React)
 
-![Employee Form Screenshot](employee-form-screenshot.png)
+## Final Employee Form Layout
+
+![Final Employee Form](public/emp-image.png)
+
 
 🔗 **Live Demo:** https://mguagcedu.github.io/employee-form
 
