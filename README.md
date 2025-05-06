@@ -2,6 +2,9 @@
 
 ![Employee Form Screenshot](employee-form-screenshot.png)
 
+🔗 **Live Demo:** https://mguagcedu.github.io/employee-form
+
+
 
 This is a React-based Employee Form for managing employee records. It uses controlled form elements, CSS styling, and best practices in modern component-based development.
 
