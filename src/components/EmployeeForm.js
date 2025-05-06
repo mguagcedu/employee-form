@@ -2,48 +2,37 @@
 import React, { useState } from 'react';
 import './EmployeeForm.css';
 
-const EmployeeForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
+function EmployeeForm() {
+  const [employee, setEmployee] = useState({
+    fullName: '',
     email: '',
-    position: '',
-    department: ''
+    department: '',
+    jobRole: ''
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setEmployee({ ...employee, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Employee Data:', formData);
-    alert('Employee Added Successfully!');
+    alert(`Employee added: ${JSON.stringify(employee)}`);
   };
 
   return (
-    <div className="employee-form">
-      <h2>New Employee Form</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input name="name" value={formData.name} onChange={handleChange} required />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" value={formData.email} onChange={handleChange} required />
-        </label>
-        <label>
-          Position:
-          <input name="position" value={formData.position} onChange={handleChange} required />
-        </label>
-        <label>
-          Department:
-          <input name="department" value={formData.department} onChange={handleChange} required />
-        </label>
-        <button type="submit">Add Employee</button>
-      </form>
-    </div>
+    <form onSubmit={handleSubmit} className="employee-form">
+      <h2>Add New Employee</h2>
+      <label>Full Name:</label>
+      <input type="text" name="fullName" onChange={handleChange} />
+      <label>Email Address:</label>
+      <input type="email" name="email" onChange={handleChange} />
+      <label>Department:</label>
+      <input type="text" name="department" onChange={handleChange} />
+      <label>Job Role:</label>
+      <input type="text" name="jobRole" onChange={handleChange} />
+      <button type="submit">Submit</button>
+    </form>
   );
-};
+}
 
 export default EmployeeForm;
