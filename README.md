@@ -1,21 +1,21 @@
 # Employee Form (React)
 
-![Final Employee Form](./emp-image.png)
+![Final Employee Form](https://mguagcedu.github.io/employee-form/emp-image.png)
 
-🔗 **Live Demo:** [https://mguagcedu.github.io/employee-form](https://mguagcedu.github.io/employee-form)  
-📁 **GitHub Repository:** [https://github.com/mguagcedu/employee-form](https://github.com/mguagcedu/employee-form)
+🔗 **Live Demo:** https://mguagcedu.github.io/employee-form  
+🔗 **GitHub Repository:** https://github.com/mguagcedu/employee-form
 
-This project is a React-based Employee Form that enables users to input employee details into a form. It demonstrates React fundamentals such as components, props, state management, and form handling.
+This is a React-based Employee Form for managing employee records. It uses controlled form elements, modular components, and best practices in accessible form design.
 
 ---
 
 ## Features
 
-✅ Controlled components with `useState`  
-✅ Inputs for name, email, department, and role  
-✅ Responsive and accessible layout  
-✅ Clean separation of logic and styling  
-✅ GitHub Pages deployment  
+- React functional component using `useState` for managing form data
+- Fields: Employee Name, Email, Department, Role
+- Accessible and responsive form layout
+- Custom CSS for visual clarity
+- Easily extendable for validation or integration with APIs
 
 ---
 
@@ -29,62 +29,33 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
+Runs the app in development mode.  
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
+The page reloads when you make changes and shows any lint errors.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.  
+See more: [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build/` folder.  
+It bundles React in production mode and optimizes for the best performance.  
+See more: [deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Note: this is a one-way operation. Once you eject, you can't go back!**  
+It copies all configuration files and dependencies so you can modify them manually.
 
 ---
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting  
-Moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size  
-Moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App  
-Moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration  
-Moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment  
-Moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify  
-Moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React documentation](https://reactjs.org/)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 ---
 
