@@ -1,18 +1,10 @@
-.employee-form-container {
+.form-container {
   max-width: 500px;
-  margin: 40px auto;
-  padding: 20px;
-  border: 2px solid #e0e0e0;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
   border-radius: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-}
-
-.employee-form-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: Arial, sans-serif;
-  color: #333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .employee-form {
@@ -21,30 +13,30 @@
 }
 
 .employee-form label {
-  margin-bottom: 15px;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 4px;
+  font-size: 14px;
 }
 
 .employee-form input {
+  margin-bottom: 16px;
   padding: 8px;
-  font-size: 16px;
-  border: 1px solid #bbb;
-  border-radius: 4px;
-  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .employee-form button {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 16px;
-  background-color: #1976d2;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .employee-form button:hover {
-  background-color: #0d47a1;
+  background-color: #0056b3;
 }
