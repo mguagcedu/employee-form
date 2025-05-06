@@ -1,6 +1,5 @@
 # Employee Form (React)
 
-## Final Employee Form Layout
 
 ![Final Employee Form](public/emp-image.png)
 
